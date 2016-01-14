@@ -1,0 +1,5 @@
+add,10
+add,10
+add,10
+subtract,10
+multiply,5
