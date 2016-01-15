@@ -10,7 +10,7 @@ var staticProcessor = require('./service.fs.js');
 
 //Define the Routing list
 var routeList = new Array();
-routeList['\/calculator'] = calculator;
+routeList['/calculator$'] = calculator;
 routeList['(.+)'] = staticProcessor;
 
 var router = {
